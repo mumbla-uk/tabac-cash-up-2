@@ -404,7 +404,7 @@ const App = () => {
                             step="0.01"
                             value={pettyCash === 0 ? '' : pettyCash}
                             onChange={handleNumberChange(setPettyCash)}
-                            className="w-14 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0 font-normal"
+                            className="w-18 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0 font-normal"
                             placeholder="0.00"
                             />
                         </div>
@@ -421,7 +421,7 @@ const App = () => {
                             step="0.01"
                             value={zReport === 0 ? '' : zReport}
                             onChange={handleNumberChange(setZReport)}
-                            className="w-14 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0 font-normal"
+                            className="w-18 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0 font-normal"
                             placeholder="0.00"
                         />
                     </div>

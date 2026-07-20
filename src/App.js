@@ -336,7 +336,7 @@ const App = () => {
                                     step="0.01"
                                     value={cashTakenTotalsByDenomination[denom] === 0 ? '' : cashTakenTotalsByDenomination[denom]}
                                     onChange={handleDenominationTotalChange(denom)}
-                                    className="w-14 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50"
+                                    className="w-18 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50"
                                     placeholder="0.00"
                                 />
                             </div>
@@ -369,7 +369,7 @@ const App = () => {
                                     step="0.01"
                                     value={cardReadings[`card${i}`] === 0 ? '' : cardReadings[`card${i}`]}
                                     onChange={handleCardReadingChange(`card${i}`)}
-                                    className="w-14 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0"
+                                    className="w-18 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0"
                                     placeholder="0.00"
                                 />
                             </div>
@@ -381,7 +381,7 @@ const App = () => {
                                     step="0.01"
                                     value={cardReadings[`gratuity${i}`] === 0 ? '' : cardReadings[`gratuity${i}`]}
                                     onChange={handleCardReadingChange(`gratuity${i}`)}
-                                    className="w-14 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0"
+                                    className="w-18 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0"
                                     placeholder="0.00"
                                 />
                             </div>
@@ -443,7 +443,7 @@ const App = () => {
                                 step="0.01"
                                 value={cashGratuity === 0 ? '' : cashGratuity}
                                 onChange={handleNumberChange(setCashGratuity)}
-                                className="w-14 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50"
+                                className="w-18 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50"
                                 placeholder="0.00"
                             />
                         </div>
@@ -465,7 +465,7 @@ const App = () => {
                             step="0.01"
                             value={discounts === 0 ? '' : discounts}
                             onChange={handleNumberChange(setDiscounts)}
-                            className="w-14 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0 font-normal"
+                            className="w-18 p-2 rounded-md sm:text-xs border border-gray-100 text-sm text-center bg-gray-50 last:border-b-0 font-normal"
                             placeholder="0.00"
                         />
                     </div>

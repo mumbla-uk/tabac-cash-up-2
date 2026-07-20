@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useRef, useCallback } from 'react';
-import { Settings, CirclePoundSterling, RotateCcw, Copy, Mail, ReceiptText, FileDown, CreditCard, Layout, Tag, Banknote, WalletCards, ReceiptTextIcon, Coins, HandCoins, CirclePercent} from 'lucide-react';
+import { CirclePoundSterling, ReceiptText, CreditCard, Banknote, WalletCards, Coins, HandCoins, CirclePercent} from 'lucide-react';
 
 
 // Main App component for the Cash Up application
